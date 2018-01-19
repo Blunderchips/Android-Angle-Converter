@@ -94,10 +94,10 @@ public final class MainActivity extends AppCompatActivity implements View.OnClic
             this.txfOutput.setText(String.format(Math.round(value) == value ? "%.0f" : "%.3f", (float) value));
         } catch (Exception ex) {
             Toast.makeText(this, "An error has occurred", Toast.LENGTH_SHORT).show();
-            Toast.makeText(this, ex.getClass().getSimpleName(), Toast.LENGTH_SHORT).show();
+            // Toast.makeText(this, ex.getClass().getSimpleName(), Toast.LENGTH_SHORT).show();
 
             String msg = ex.getMessage().toLowerCase().trim();
-            Toast.makeText(this, msg, Toast.LENGTH_LONG).show();
+            // Toast.makeText(this, msg, Toast.LENGTH_LONG).show();
             this.txfOutput.setText(msg);
         }
     }

@@ -8,19 +8,22 @@
     tools:context="dot.empire.angleconverter.MainActivity"
     tools:showIn="@layout/activity_main">
 
-    <TextView
+    <com.vj.widgets.AutoResizeTextView
         android:id="@+id/lblTitle"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="8dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
+        android:layout_marginBottom="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
         android:ellipsize="none"
         android:gravity="center"
         android:singleLine="true"
         android:text="Angle Converter"
         android:textSize="50sp"
+        app:layout_constraintBottom_toTopOf="@+id/txfInput"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -28,9 +31,9 @@
         android:id="@+id/txfInput"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="8dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="60dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="48dp"
         android:ems="10"
         android:inputType="numberDecimal"
         app:layout_constraintEnd_toEndOf="parent"
@@ -38,63 +41,73 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/lblTitle" />
 
-    <TextView
-        android:id="@+id/lblFrom"
-        android:layout_width="100sp"
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_gravity="center_vertical"
+        android:layout_marginBottom="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="32dp"
-        android:layout_weight="1"
-        android:gravity="end"
-        android:text="From:"
-        android:textSize="28sp"
-        app:layout_constraintEnd_toStartOf="@+id/spnFrom"
-        app:layout_constraintHorizontal_bias="0.71"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txfInput" />
-
-    <Spinner
-        android:id="@+id/spnFrom"
-        android:layout_width="167dp"
-        android:layout_height="42dp"
-        android:layout_marginEnd="32dp"
-        android:layout_marginTop="32dp"
-        android:layout_weight="1"
-        android:entries="@array/units"
-        android:prompt="@string/units"
+        android:layout_marginTop="8dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="@+id/btnConvert"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txfInput" />
-
-    <TextView
-        android:id="@+id/lnlTo"
-        android:layout_width="100sp"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center_vertical"
-        android:layout_marginEnd="8dp"
-        android:layout_marginStart="40dp"
-        android:layout_marginTop="24dp"
-        android:layout_weight="1"
-        android:gravity="end"
-        android:text="To:"
-        android:textSize="28sp"
-        app:layout_constraintEnd_toStartOf="@+id/spnTo"
-        app:layout_constraintHorizontal_bias="0.435"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/lblFrom" />
+        app:layout_constraintTop_toBottomOf="@+id/txfInput"
+        app:layout_constraintVertical_bias="0.2">
 
-    <Spinner
-        android:id="@+id/spnTo"
-        android:layout_width="161dp"
-        android:layout_height="38dp"
-        android:layout_marginEnd="36dp"
-        android:layout_marginTop="16dp"
-        android:layout_weight="1"
-        android:entries="@array/units"
-        android:prompt="@string/units"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/spnFrom" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/lblFrom"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:gravity="end"
+                android:text="From:"
+                android:textSize="28sp" />
+
+            <Spinner
+                android:id="@+id/spnFrom"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:entries="@array/units"
+                android:prompt="@string/units" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/lnlTo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:gravity="end"
+                android:text="To:"
+                android:textSize="28sp" />
+
+            <Spinner
+                android:id="@+id/spnTo"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:entries="@array/units"
+                android:prompt="@string/units" />
+        </LinearLayout>
+
+    </LinearLayout>
 
     <TextView
         android:id="@+id/txtOutput"
@@ -110,10 +123,8 @@
         android:textSize="45sp"
         app:layout_constraintBottom_toTopOf="@+id/btnConvert"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txfInput"
-        app:layout_constraintVertical_bias="0.935" />
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout" />
 
     <Button
         android:id="@+id/btnConvert"
