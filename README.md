@@ -5,7 +5,7 @@ This app is designed to calculate effective interest rates and nothing else. It 
 youtube video
 
 The icon used can be found on game-icons.net
-()
+(http://game-icons.net/lord-berandas/originals/diagram.html)
 
 ## playstore link
 

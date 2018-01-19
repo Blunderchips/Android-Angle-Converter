@@ -1,3 +1,26 @@
+commit cdbbe4239879e484d5149d2535c4a48ee5b13794
+Author: Matthew 'siD' Van der Bijl <matthewvdbijl@gmail.com>
+Date:   Fri Jan 19 16:16:32 2018 +0200
+
+    Added icon
+    
+    The icon used can be found on game-icons.net
+    (http://game-icons.net/lord-berandas/originals/diagram.html)
+
+commit 985b71a9de1d3fc1f269bfa3dfc8fa9dd233a193
+Author: Matthew 'siD' Van der Bijl <matthewvdbijl@gmail.com>
+Date:   Fri Jan 19 16:10:36 2018 +0200
+
+    Update README.md
+    
+    Added template. Still need to find + add icon, make + add YouTube video and play store link
+
+commit f9d968183239f1a38d230d27cade3e4d71bf7e3e
+Author: Matthew 'siD' Van der Bijl <matthewvdbijl@gmail.com>
+Date:   Fri Jan 19 16:05:47 2018 +0200
+
+    Generated git log
+
 commit 751eed2fb04336e90485fed1ce4dabc747cbeff1
 Author: Matthew 'siD' Van der Bijl <matthewvdbijl@gmail.com>
 Date:   Fri Jan 19 16:02:42 2018 +0200
