@@ -1,0 +1,23 @@
+commit 751eed2fb04336e90485fed1ce4dabc747cbeff1
+Author: Matthew 'siD' Van der Bijl <matthewvdbijl@gmail.com>
+Date:   Fri Jan 19 16:02:42 2018 +0200
+
+    Added title screen + title video
+
+commit be6f403095299671abe0364f19de3f23f4f89a30
+Author: Matthew 'siD' Van der Bijl <matthewvdbijl@gmail.com>
+Date:   Fri Jan 19 16:02:16 2018 +0200
+
+    Generated javadoc
+
+commit 59e0c037997d00f2d290aa36abe16198a8c299ad
+Author: Matthew 'siD' Van der Bijl <matthewvdbijl@gmail.com>
+Date:   Fri Jan 19 16:01:57 2018 +0200
+
+    Added Android Studio project
+
+commit 7ec4de861052737186fc64b7b1e23a24ecf199f3
+Author: Matthew 'siD' Van der Bijl <matthewvdbijl@gmail.com>
+Date:   Fri Jan 19 15:59:25 2018 +0200
+
+    Initial commit
