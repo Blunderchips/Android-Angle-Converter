@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Angle Converter</string>
+    <string name="action_settings">Settings</string>
+    <string name="units">Choose a unit</string>
+
+    <string-array name="units">
+        <item>Radians</item>
+        <item>Degrees</item>
+        <item>Minutes</item>
+        <item>Seconds</item>
+        <item>Octant</item>
+        <item>Sextant</item>
+        <item>Quadrant</item>
+        <item>Revolution</item>
+        <item>Gon</item>
+        <item>Mil</item>
+    </string-array>
+</resources>
