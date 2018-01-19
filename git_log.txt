@@ -1,4 +1,94 @@
-commit cdbbe4239879e484d5149d2535c4a48ee5b13794
+commit e88edd63f51d53555f38c428ee7066c12c19b5e4
+Author: Matthew 'siD' Van der Bijl <matthewvdbijl@gmail.com>
+Date:   Fri Jan 19 22:28:11 2018 +0200
+
+    Minor Update
+    
+    Changed accent colour to #4A90E2
+
+commit eaffd5c1b23d46b242755338787438873bc2cb3a
+Author: Matthew 'siD' Van der Bijl <matthewvdbijl@gmail.com>
+Date:   Fri Jan 19 22:22:11 2018 +0200
+
+    Cleaned code
+
+commit 95fb3dfda7381c461a1f147e4ce4e333560f2648
+Author: Matthew 'siD' Van der Bijl <matthewvdbijl@gmail.com>
+Date:   Fri Jan 19 22:17:28 2018 +0200
+
+    Update README.md
+    
+    Added Play Store link
+    https://play.google.com/store/apps/details?id=dot.empire.angle.angleconverter
+
+commit 559b8097055b6b31e8e989d27410efc18d1a3396
+Author: Matthew 'siD' Van der Bijl <matthewvdbijl@gmail.com>
+Date:   Fri Jan 19 21:58:01 2018 +0200
+
+    Added Rating Certificate
+
+commit 2adfcd177c31b4f605e8a7981a661607c70b5382
+Author: Matthew 'siD' Van der Bijl <matthewvdbijl@gmail.com>
+Date:   Fri Jan 19 20:35:23 2018 +0200
+
+    Update README.md
+    
+    Adde types of conversions are possible
+
+commit c7dfbdabcfc17e2a3c961361369b098283fa27e5
+Author: Matthew 'siD' Van der Bijl <matthewvdbijl@gmail.com>
+Date:   Fri Jan 19 20:04:07 2018 +0200
+
+    Create readme.txt
+    
+    Created a readme for the Android Studio project.
+
+commit c756ecfab0501bf377341d3fcb1dccc5ce168616
+Author: Matthew 'siD' Van der Bijl <matthewvdbijl@gmail.com>
+Date:   Fri Jan 19 20:02:15 2018 +0200
+
+    Create readme.txt
+    
+    To keep track of where all resources were found. Done online with GitHub.
+
+commit 6996e7655a3aca3ec768d951f2fb19ff28b4c36c
+Author: Matthew 'siD' Van der Bijl <matthewvdbijl@gmail.com>
+Date:   Fri Jan 19 19:58:30 2018 +0200
+
+    Added YouTube video
+    
+    To replace the 'old' one, Has been auto enhanced by YouTube.
+
+commit d4bdd6aa6454cbd4c7a6ed66ed3ebb2f0aa9a544
+Author: Matthew 'siD' Van der Bijl <matthewvdbijl@gmail.com>
+Date:   Fri Jan 19 19:54:53 2018 +0200
+
+    Delete Angle Converter YouTube Video.mp4
+    
+    Uploaded to YouTube. Will replace this file with one that has been auto enhanced by YouTube.
+
+commit 68c56ce6750895a7b79a2be3f17b16295ebf6640
+Author: Matthew 'siD' Van der Bijl <matthewvdbijl@gmail.com>
+Date:   Fri Jan 19 19:48:02 2018 +0200
+
+    Created video for YouTube
+
+commit 09d22c0af0824eabed810866c94e3dc524bc0e72
+Author: Matthew 'siD' Van der Bijl <matthewvdbijl@gmail.com>
+Date:   Fri Jan 19 18:31:15 2018 +0200
+
+    Added screebshots for Play Store page
+
+commit c08c1202b2cbbb8ea6bad4d9a1b8de007aa4a94c
+Author: Matthew 'siD' Van der Bijl <matthewvdbijl@gmail.com>
+Date:   Fri Jan 19 18:29:27 2018 +0200
+
+    Minor Update
+    
+    Realigned everything
+    Fixed readme
+
+commit ca4b8be1987e370e62abd1fb3a5f7c79d4d19fe8
 Author: Matthew 'siD' Van der Bijl <matthewvdbijl@gmail.com>
 Date:   Fri Jan 19 16:16:32 2018 +0200
 
