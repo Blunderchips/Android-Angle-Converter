@@ -94,7 +94,8 @@ public final class MainActivity extends AppCompatActivity implements View.OnClic
                             * degreesConvversions.get(spnFrom.getSelectedItem().toString());
                     double value = deg / degreesConvversions.get(spnTo.getSelectedItem().toString());
 
-                    this.txfOutput.setText(String.format(Math.round(value) == value ? "%.0f" : "%.3f", (float) value));
+                    this.txfOutput.setText(String.format(Math.round(value) == value ? "%.0f" : "%.3f", (float) value)
+                            .replaceAll(",", "."));
                 } catch (Exception ex) {
                     Toast.makeText(this, "An error has occurred", Toast.LENGTH_SHORT).show();
                     // Toast.makeText(this, ex.getClass().getSimpleName(), Toast.LENGTH_SHORT).show();
