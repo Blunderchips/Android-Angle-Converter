@@ -69,6 +69,7 @@ public final class MainActivity extends AppCompatActivity implements View.OnClic
         this.degreesConvversions.put("Gon", 360 / 400d);
         this.degreesConvversions.put("Mil", 360 / 6400d);
 
+        ((Button) findViewById(R.id.btnClear)).setOnClickListener(this);
         ((Button) findViewById(R.id.btnConvert)).setOnClickListener(this);
 
         this.txfOutput = (TextView) findViewById(R.id.txtOutput);
@@ -86,19 +87,29 @@ public final class MainActivity extends AppCompatActivity implements View.OnClic
      */
     @Override
     public void onClick(View v) {
-        try {
-            double deg = Double.parseDouble(txfInput.getText().toString()) // convert to degrees
-                    * degreesConvversions.get(spnFrom.getSelectedItem().toString());
-            double value = deg / degreesConvversions.get(spnTo.getSelectedItem().toString());
+        switch (v.getId()) {
+            case R.id.btnConvert: {
+                try {
+                    double deg = Double.parseDouble(txfInput.getText().toString()) // convert to degrees
+                            * degreesConvversions.get(spnFrom.getSelectedItem().toString());
+                    double value = deg / degreesConvversions.get(spnTo.getSelectedItem().toString());
 
-            this.txfOutput.setText(String.format(Math.round(value) == value ? "%.0f" : "%.3f", (float) value));
-        } catch (Exception ex) {
-            Toast.makeText(this, "An error has occurred", Toast.LENGTH_SHORT).show();
-            // Toast.makeText(this, ex.getClass().getSimpleName(), Toast.LENGTH_SHORT).show();
+                    this.txfOutput.setText(String.format(Math.round(value) == value ? "%.0f" : "%.3f", (float) value));
+                } catch (Exception ex) {
+                    Toast.makeText(this, "An error has occurred", Toast.LENGTH_SHORT).show();
+                    // Toast.makeText(this, ex.getClass().getSimpleName(), Toast.LENGTH_SHORT).show();
 
-            String msg = ex.getMessage().toLowerCase().trim();
-            // Toast.makeText(this, msg, Toast.LENGTH_LONG).show();
-            this.txfOutput.setText(msg);
+                    String msg = ex.getMessage().toLowerCase().trim();
+                    // Toast.makeText(this, msg, Toast.LENGTH_LONG).show();
+                    this.txfOutput.setText(msg);
+                }
+            }
+            return;
+            case R.id.btnClear: {
+                this.txfInput.setText("");
+                this.txfOutput.setText("");
+            }
+            return;
         }
     }
 }
