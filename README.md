@@ -2,6 +2,18 @@
 
 This app is designed to convert angles to and from different units and nothing else. It is hopefully the first in a series of apps I intend to make with each app performing a single mathematical task. The idea is that a user downloads the app, performs the calculation they wish to perform and then uninstall the app.
 
+Convert to and from:
+* Radians
+* Degrees
+* Minutes
+* Seconds
+* Octant
+* Sextant
+* Quadrant
+* Revolution
+* Gon
+* Mil
+
 https://www.youtube.com/watch?v=NgUt7w5uDW4
 
 The icon used can be found on game-icons.net
