@@ -19,8 +19,7 @@ https://www.youtube.com/watch?v=NgUt7w5uDW4
 The icon used can be found on game-icons.net
 (http://game-icons.net/lord-berandas/originals/diagram.html)
 
-## playstore link
-
+## https://play.google.com/store/apps/details?id=dot.empire.angle.angleconverter
 
 MIT License
 
