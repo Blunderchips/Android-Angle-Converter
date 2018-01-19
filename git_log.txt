@@ -1,4 +1,42 @@
-commit e88edd63f51d53555f38c428ee7066c12c19b5e4
+commit ee5b20c9a02f6a0ac9aaa09972bd5952eaef1267
+Author: Matthew 'siD' Van der Bijl <matthewvdbijl@gmail.com>
+Date:   Sat Jan 20 00:00:42 2018 +0200
+
+    Nightly
+
+commit 11083c6d2f282478b713b111e1168aea3ba17e11
+Author: Matthew 'siD' Van der Bijl <matthewvdbijl@gmail.com>
+Date:   Fri Jan 19 23:50:31 2018 +0200
+
+    Force portrait
+
+commit 86841b49f512e856fc75be9f00a27bc7dde1fb46
+Author: Matthew 'siD' Van der Bijl <matthewvdbijl@gmail.com>
+Date:   Fri Jan 19 23:46:03 2018 +0200
+
+    Change Colour
+    
+    Change accent colour back to #FF4081
+
+commit e0ff1e5f4ccf48e11ee5713f0a4d16b4256bcee9
+Author: Matthew 'siD' Van der Bijl <matthewvdbijl@gmail.com>
+Date:   Fri Jan 19 23:29:58 2018 +0200
+
+    Cleaned project
+
+commit 7eaf7d3d8bdfd78227a2e2ffddbfb35e4a157850
+Author: Matthew 'siD' Van der Bijl <matthewvdbijl@gmail.com>
+Date:   Fri Jan 19 23:17:21 2018 +0200
+
+    Added clear button
+
+commit ededf2395f2cf8115cc40f1428f3d85c3f60f186
+Author: Matthew 'siD' Van der Bijl <matthewvdbijl@gmail.com>
+Date:   Fri Jan 19 22:30:44 2018 +0200
+
+    Removed duplicate screenshot
+
+commit 302604fc8f845064da79d3a4ab62c963298ebe7b
 Author: Matthew 'siD' Van der Bijl <matthewvdbijl@gmail.com>
 Date:   Fri Jan 19 22:28:11 2018 +0200
 

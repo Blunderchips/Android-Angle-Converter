@@ -4,6 +4,7 @@ import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -97,12 +98,16 @@ public final class MainActivity extends AppCompatActivity implements View.OnClic
                     this.txfOutput.setText(String.format(Math.round(value) == value ? "%.0f" : "%.3f", (float) value)
                             .replaceAll(",", "."));
                 } catch (Exception ex) {
+                    Log.e("Error", "Invalid input", ex);
+
                     Toast.makeText(this, "An error has occurred", Toast.LENGTH_SHORT).show();
                     // Toast.makeText(this, ex.getClass().getSimpleName(), Toast.LENGTH_SHORT).show();
 
-                    String msg = ex.getMessage().toLowerCase().trim();
+                    // String msg = ex.getMessage().toLowerCase().trim();
                     // Toast.makeText(this, msg, Toast.LENGTH_LONG).show();
-                    this.txfOutput.setText(msg);
+                    // this.txfOutput.setText(msg);
+
+                    this.txfOutput.setText("Invalid Input");
                 }
             }
             return;
