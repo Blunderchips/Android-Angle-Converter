@@ -89,7 +89,7 @@ public final class MainActivity extends AppCompatActivity implements View.OnClic
             FirebaseAnalytics analytics = FirebaseAnalytics.getInstance(this);
             analytics.setAnalyticsCollectionEnabled(true);
 
-            MobileAds.initialize(this,"ca-app-pub-7186830154970754~4506385135");
+            MobileAds.initialize(this, "ca-app-pub-7186830154970754~4506385135");
 
             this.adView = (AdView) findViewById(R.id.adView);
 
@@ -122,7 +122,7 @@ public final class MainActivity extends AppCompatActivity implements View.OnClic
                 } catch (Exception ex) {
                     Log.e("Error", "Invalid input", ex);
 
-                    Toast.makeText(this, "An error has occurred", Toast.LENGTH_SHORT).show();
+                    // Toast.makeText(this, "An error has occurred", Toast.LENGTH_SHORT).show();
                     // Toast.makeText(this, ex.getClass().getSimpleName(), Toast.LENGTH_SHORT).show();
 
                     // String msg = ex.getMessage().toLowerCase().trim();
@@ -139,5 +139,38 @@ public final class MainActivity extends AppCompatActivity implements View.OnClic
             }
             return;
         }
+    }
+
+    /**
+     * Called when leaving the activity.
+     */
+    @Override
+    public void onPause() {
+        if (adView != null) {
+            this.adView.pause();
+        }
+        super.onPause();
+    }
+
+    /**
+     * Called when returning to the activity.
+     */
+    @Override
+    public void onResume() {
+        super.onResume();
+        if (adView != null) {
+            this.adView.resume();
+        }
+    }
+
+    /**
+     * Called before the activity is destroyed.
+     */
+    @Override
+    public void onDestroy() {
+        if (adView != null) {
+            this.adView.destroy();
+        }
+        super.onDestroy();
     }
 }
