@@ -112,6 +112,12 @@ public final class MainActivity extends AppCompatActivity implements View.OnClic
     public void onClick(View v) {
         switch (v.getId()) {
             case R.id.btnConvert: {
+
+                if (spnFrom.getSelectedItemPosition() == spnTo.getSelectedItemPosition()) {
+                    this.txfOutput.setText(txfInput.getText().toString());
+                    return;
+                }
+
                 try {
                     double deg = Double.parseDouble(txfInput.getText().toString()) // convert to degrees
                             * degreesConvversions.get(spnFrom.getSelectedItem().toString());
