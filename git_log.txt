@@ -1,4 +1,34 @@
-commit ee5b20c9a02f6a0ac9aaa09972bd5952eaef1267
+commit 2cde579abb6b57b2b4c521eeaac21b2d36a0ff78
+Author: Matthew 'siD' Van der Bijl <matthewvdbijl@gmail.com>
+Date:   Sat Jan 20 15:29:57 2018 +0200
+
+    3rd Release
+
+commit db59b89b42b3e93d6c111c6ef0c110d4fdd10ce1
+Author: Matthew 'siD' Van der Bijl <matthewvdbijl@gmail.com>
+Date:   Sat Jan 20 15:08:31 2018 +0200
+
+    validation
+
+commit e05e1b9a52b6399f07d7319bd0d42b980853ff6d
+Author: Matthew 'siD' Van der Bijl <matthewvdbijl@gmail.com>
+Date:   Sat Jan 20 15:03:38 2018 +0200
+
+    Hotfix
+
+commit 29f920a0a76aa1d536b4f0f3d34326c4f1100bc3
+Author: Matthew 'siD' Van der Bijl <matthewvdbijl@gmail.com>
+Date:   Sat Jan 20 14:07:46 2018 +0200
+
+    Major Update
+    
+    Added firebase analytics
+    Added admob ads
+    Removed title from activity label bar
+    
+    (should be stable)
+
+commit 0fb6c3ff36eabc8cfaac1250d0d13b2dfba161b2
 Author: Matthew 'siD' Van der Bijl <matthewvdbijl@gmail.com>
 Date:   Sat Jan 20 00:00:42 2018 +0200
 
