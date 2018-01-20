@@ -12,6 +12,11 @@ import android.widget.Spinner;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.AdView;
+import com.google.android.gms.ads.MobileAds;
+import com.google.firebase.analytics.FirebaseAnalytics;
+
 import java.util.HashMap;
 
 /**
@@ -43,6 +48,8 @@ public final class MainActivity extends AppCompatActivity implements View.OnClic
      * To be converted to.
      */
     private Spinner spnTo;
+
+    private AdView adView;
 
     /**
      * Default constructor.
@@ -77,6 +84,21 @@ public final class MainActivity extends AppCompatActivity implements View.OnClic
         this.txfInput = (EditText) findViewById(R.id.txfInput);
         this.spnFrom = (Spinner) findViewById(R.id.spnFrom);
         this.spnTo = (Spinner) findViewById(R.id.spnTo);
+
+        try {
+            FirebaseAnalytics analytics = FirebaseAnalytics.getInstance(this);
+            analytics.setAnalyticsCollectionEnabled(true);
+
+            MobileAds.initialize(this,"ca-app-pub-7186830154970754~4506385135");
+
+            this.adView = (AdView) findViewById(R.id.adView);
+
+            AdRequest.Builder builder = new AdRequest.Builder();
+            this.adView.loadAd(builder.build());
+        } catch (Exception ex) {
+            Toast.makeText(this, ex.toString(), Toast.LENGTH_LONG).show();
+        }
+
 
         Toast.makeText(this, "Welcome!", Toast.LENGTH_SHORT).show();
     }
