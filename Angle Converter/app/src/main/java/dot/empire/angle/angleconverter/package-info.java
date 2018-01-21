@@ -3,4 +3,4 @@
  *
  * @author Matthew 'siD' Van der Bijl
  */
-package dot.empire.angleconverter;
+package dot.empire.angle.angleconverter;

@@ -1,0 +1,215 @@
+commit 66772613480a81425b5d837b0a79c8e725de1f38
+Author: Matthew 'siD' Van der Bijl <matthewvdbijl@gmail.com>
+Date:   Sun Jan 21 13:05:19 2018 +0200
+
+    Major Update
+    
+    Moved all classes to new package.
+    Admob/Firebase was unhappy with the old package for some unknown reason.
+    
+    Signed-off-by: Matthew 'siD' Van der Bijl <matthewvdbijl@gmail.com>
+
+commit 5d7e62867a2d7e892571a69428781f061269b9d6
+Author: Matthew 'siD' Van der Bijl <matthewvdbijl@gmail.com>
+Date:   Sat Jan 20 15:29:57 2018 +0200
+
+    3rd Release
+
+commit db59b89b42b3e93d6c111c6ef0c110d4fdd10ce1
+Author: Matthew 'siD' Van der Bijl <matthewvdbijl@gmail.com>
+Date:   Sat Jan 20 15:08:31 2018 +0200
+
+    validation
+
+commit e05e1b9a52b6399f07d7319bd0d42b980853ff6d
+Author: Matthew 'siD' Van der Bijl <matthewvdbijl@gmail.com>
+Date:   Sat Jan 20 15:03:38 2018 +0200
+
+    Hotfix
+
+commit 29f920a0a76aa1d536b4f0f3d34326c4f1100bc3
+Author: Matthew 'siD' Van der Bijl <matthewvdbijl@gmail.com>
+Date:   Sat Jan 20 14:07:46 2018 +0200
+
+    Major Update
+    
+    Added firebase analytics
+    Added admob ads
+    Removed title from activity label bar
+    
+    (should be stable)
+
+commit 0fb6c3ff36eabc8cfaac1250d0d13b2dfba161b2
+Author: Matthew 'siD' Van der Bijl <matthewvdbijl@gmail.com>
+Date:   Sat Jan 20 00:00:42 2018 +0200
+
+    Nightly
+
+commit 11083c6d2f282478b713b111e1168aea3ba17e11
+Author: Matthew 'siD' Van der Bijl <matthewvdbijl@gmail.com>
+Date:   Fri Jan 19 23:50:31 2018 +0200
+
+    Force portrait
+
+commit 86841b49f512e856fc75be9f00a27bc7dde1fb46
+Author: Matthew 'siD' Van der Bijl <matthewvdbijl@gmail.com>
+Date:   Fri Jan 19 23:46:03 2018 +0200
+
+    Change Colour
+    
+    Change accent colour back to #FF4081
+
+commit e0ff1e5f4ccf48e11ee5713f0a4d16b4256bcee9
+Author: Matthew 'siD' Van der Bijl <matthewvdbijl@gmail.com>
+Date:   Fri Jan 19 23:29:58 2018 +0200
+
+    Cleaned project
+
+commit 7eaf7d3d8bdfd78227a2e2ffddbfb35e4a157850
+Author: Matthew 'siD' Van der Bijl <matthewvdbijl@gmail.com>
+Date:   Fri Jan 19 23:17:21 2018 +0200
+
+    Added clear button
+
+commit ededf2395f2cf8115cc40f1428f3d85c3f60f186
+Author: Matthew 'siD' Van der Bijl <matthewvdbijl@gmail.com>
+Date:   Fri Jan 19 22:30:44 2018 +0200
+
+    Removed duplicate screenshot
+
+commit 302604fc8f845064da79d3a4ab62c963298ebe7b
+Author: Matthew 'siD' Van der Bijl <matthewvdbijl@gmail.com>
+Date:   Fri Jan 19 22:28:11 2018 +0200
+
+    Minor Update
+    
+    Changed accent colour to #4A90E2
+
+commit eaffd5c1b23d46b242755338787438873bc2cb3a
+Author: Matthew 'siD' Van der Bijl <matthewvdbijl@gmail.com>
+Date:   Fri Jan 19 22:22:11 2018 +0200
+
+    Cleaned code
+
+commit 95fb3dfda7381c461a1f147e4ce4e333560f2648
+Author: Matthew 'siD' Van der Bijl <matthewvdbijl@gmail.com>
+Date:   Fri Jan 19 22:17:28 2018 +0200
+
+    Update README.md
+    
+    Added Play Store link
+    https://play.google.com/store/apps/details?id=dot.empire.angle.angleconverter
+
+commit 559b8097055b6b31e8e989d27410efc18d1a3396
+Author: Matthew 'siD' Van der Bijl <matthewvdbijl@gmail.com>
+Date:   Fri Jan 19 21:58:01 2018 +0200
+
+    Added Rating Certificate
+
+commit 2adfcd177c31b4f605e8a7981a661607c70b5382
+Author: Matthew 'siD' Van der Bijl <matthewvdbijl@gmail.com>
+Date:   Fri Jan 19 20:35:23 2018 +0200
+
+    Update README.md
+    
+    Adde types of conversions are possible
+
+commit c7dfbdabcfc17e2a3c961361369b098283fa27e5
+Author: Matthew 'siD' Van der Bijl <matthewvdbijl@gmail.com>
+Date:   Fri Jan 19 20:04:07 2018 +0200
+
+    Create readme.txt
+    
+    Created a readme for the Android Studio project.
+
+commit c756ecfab0501bf377341d3fcb1dccc5ce168616
+Author: Matthew 'siD' Van der Bijl <matthewvdbijl@gmail.com>
+Date:   Fri Jan 19 20:02:15 2018 +0200
+
+    Create readme.txt
+    
+    To keep track of where all resources were found. Done online with GitHub.
+
+commit 6996e7655a3aca3ec768d951f2fb19ff28b4c36c
+Author: Matthew 'siD' Van der Bijl <matthewvdbijl@gmail.com>
+Date:   Fri Jan 19 19:58:30 2018 +0200
+
+    Added YouTube video
+    
+    To replace the 'old' one, Has been auto enhanced by YouTube.
+
+commit d4bdd6aa6454cbd4c7a6ed66ed3ebb2f0aa9a544
+Author: Matthew 'siD' Van der Bijl <matthewvdbijl@gmail.com>
+Date:   Fri Jan 19 19:54:53 2018 +0200
+
+    Delete Angle Converter YouTube Video.mp4
+    
+    Uploaded to YouTube. Will replace this file with one that has been auto enhanced by YouTube.
+
+commit 68c56ce6750895a7b79a2be3f17b16295ebf6640
+Author: Matthew 'siD' Van der Bijl <matthewvdbijl@gmail.com>
+Date:   Fri Jan 19 19:48:02 2018 +0200
+
+    Created video for YouTube
+
+commit 09d22c0af0824eabed810866c94e3dc524bc0e72
+Author: Matthew 'siD' Van der Bijl <matthewvdbijl@gmail.com>
+Date:   Fri Jan 19 18:31:15 2018 +0200
+
+    Added screebshots for Play Store page
+
+commit c08c1202b2cbbb8ea6bad4d9a1b8de007aa4a94c
+Author: Matthew 'siD' Van der Bijl <matthewvdbijl@gmail.com>
+Date:   Fri Jan 19 18:29:27 2018 +0200
+
+    Minor Update
+    
+    Realigned everything
+    Fixed readme
+
+commit ca4b8be1987e370e62abd1fb3a5f7c79d4d19fe8
+Author: Matthew 'siD' Van der Bijl <matthewvdbijl@gmail.com>
+Date:   Fri Jan 19 16:16:32 2018 +0200
+
+    Added icon
+    
+    The icon used can be found on game-icons.net
+    (http://game-icons.net/lord-berandas/originals/diagram.html)
+
+commit 985b71a9de1d3fc1f269bfa3dfc8fa9dd233a193
+Author: Matthew 'siD' Van der Bijl <matthewvdbijl@gmail.com>
+Date:   Fri Jan 19 16:10:36 2018 +0200
+
+    Update README.md
+    
+    Added template. Still need to find + add icon, make + add YouTube video and play store link
+
+commit f9d968183239f1a38d230d27cade3e4d71bf7e3e
+Author: Matthew 'siD' Van der Bijl <matthewvdbijl@gmail.com>
+Date:   Fri Jan 19 16:05:47 2018 +0200
+
+    Generated git log
+
+commit 751eed2fb04336e90485fed1ce4dabc747cbeff1
+Author: Matthew 'siD' Van der Bijl <matthewvdbijl@gmail.com>
+Date:   Fri Jan 19 16:02:42 2018 +0200
+
+    Added title screen + title video
+
+commit be6f403095299671abe0364f19de3f23f4f89a30
+Author: Matthew 'siD' Van der Bijl <matthewvdbijl@gmail.com>
+Date:   Fri Jan 19 16:02:16 2018 +0200
+
+    Generated javadoc
+
+commit 59e0c037997d00f2d290aa36abe16198a8c299ad
+Author: Matthew 'siD' Van der Bijl <matthewvdbijl@gmail.com>
+Date:   Fri Jan 19 16:01:57 2018 +0200
+
+    Added Android Studio project
+
+commit 7ec4de861052737186fc64b7b1e23a24ecf199f3
+Author: Matthew 'siD' Van der Bijl <matthewvdbijl@gmail.com>
+Date:   Fri Jan 19 15:59:25 2018 +0200
+
+    Initial commit

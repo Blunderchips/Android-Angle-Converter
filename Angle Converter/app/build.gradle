@@ -3,10 +3,10 @@ apply plugin: 'com.android.application'
 android {
     compileSdkVersion 26
     defaultConfig {
-        applicationId "dot.empire.angleconverter"
+        applicationId "dot.empire.angle.angleconverter"
         minSdkVersion 19
         targetSdkVersion 26
-        versionCode 3
+        versionCode 4
         versionName "1.0"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
     }

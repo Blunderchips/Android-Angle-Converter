@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:context="dot.empire.angleconverter.MainActivity"
+    tools:context="dot.empire.angle.angleconverter.MainActivity"
     tools:showIn="@layout/activity_main">
 
     <com.vj.widgets.AutoResizeTextView

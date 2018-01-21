@@ -1,4 +1,4 @@
-package dot.empire.angleconverter;
+package dot.empire.angle.angleconverter;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;
