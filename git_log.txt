@@ -1,4 +1,12 @@
-commit 73c9d24ea331554d7327bf75bdd68f0c0c5d4cca
+commit eadfd849d48c962b943ae8509679d33c9ef77d94
+Author: Matthew 'siD' Van der Bijl <matthewvdbijl@gmail.com>
+Date:   Sun Jan 21 13:12:31 2018 +0200
+
+    Javadoc Update
+    
+    Updated javadoc to reflect package moval.
+
+commit 78cade53968aa0e575eebe4128cf947110f1f0e4
 Author: Matthew 'siD' Van der Bijl <matthewvdbijl@gmail.com>
 Date:   Sun Jan 21 13:07:35 2018 +0200
 
