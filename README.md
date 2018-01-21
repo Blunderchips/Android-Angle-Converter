@@ -15,7 +15,6 @@ Convert to and from:
 * Mil
 
 https://www.youtube.com/watch?v=NgUt7w5uDW4
-
 The icon used can be found on [game-icons.net](http://game-icons.net/)
 
 (http://game-icons.net/lord-berandas/originals/diagram.html)
