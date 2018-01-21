@@ -1,4 +1,35 @@
-commit ac184296e2e16d6193aeca424a691ed4dc1ba805
+commit 510d881bf8a9df67b981016159f1ae86d1dea1c2
+Merge: bf83e6d 8b552fe
+Author: Matthew 'siD' Van der Bijl <matthewvdbijl@gmail.com>
+Date:   Sun Jan 21 17:19:08 2018 +0200
+
+    Merge branch 'master' of https://github.com/Blunderchips/Android-Angle-Converter
+
+commit bf83e6d2777d25ef5ed1bcc898bd55facaf28c4f
+Author: Matthew 'siD' Van der Bijl <matthewvdbijl@gmail.com>
+Date:   Sun Jan 21 17:19:02 2018 +0200
+
+    Minor changes
+
+commit 8b552fe73423f69f81890c0ef9a1f16666598754
+Author: Matthew 'siD' Van der Bijl <matthewvdbijl@gmail.com>
+Date:   Sun Jan 21 14:41:49 2018 +0200
+
+    Created Screenshots readme.txt
+    
+    Screenshots are the app running on a Xperia XA & where cropped using the InShot Android app.
+
+commit 8dd5be69b5dac21517e828d37e4c4a1323baec46
+Author: Matthew 'siD' Van der Bijl <matthewvdbijl@gmail.com>
+Date:   Sun Jan 21 13:44:02 2018 +0200
+
+    Created reame.txt for Tablet Screenshots
+    
+    Added tablet details:
+    Lenovo TAB 2 A10-70L
+    Android Version: 5.0.1
+
+commit ec0cb3fcad1510827c5adfe70f6dd5982bffd3d0
 Author: Matthew 'siD' Van der Bijl <matthewvdbijl@gmail.com>
 Date:   Sun Jan 21 13:32:19 2018 +0200
 
