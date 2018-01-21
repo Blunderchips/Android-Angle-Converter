@@ -1,4 +1,13 @@
-commit 175b679500f5de93e3b76a27513835bae2f1abf0
+commit ac184296e2e16d6193aeca424a691ed4dc1ba805
+Author: Matthew 'siD' Van der Bijl <matthewvdbijl@gmail.com>
+Date:   Sun Jan 21 13:32:19 2018 +0200
+
+    Minor Update
+    
+    More input validation
+    Added license comment to code
+
+commit b3479690db5df50b009bed835e2d16713e6c470e
 Author: Matthew 'siD' Van der Bijl <matthewvdbijl@gmail.com>
 Date:   Sun Jan 21 13:21:01 2018 +0200
 
