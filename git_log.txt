@@ -1,4 +1,21 @@
-commit 2cde579abb6b57b2b4c521eeaac21b2d36a0ff78
+commit 73c9d24ea331554d7327bf75bdd68f0c0c5d4cca
+Author: Matthew 'siD' Van der Bijl <matthewvdbijl@gmail.com>
+Date:   Sun Jan 21 13:07:35 2018 +0200
+
+    Added tablet screenshots
+
+commit 204bd3293510e8e2cc94a1649636b39e3c0be833
+Author: Matthew 'siD' Van der Bijl <matthewvdbijl@gmail.com>
+Date:   Sun Jan 21 13:05:19 2018 +0200
+
+    Major Update
+    
+    Moved all classes to new package.
+    Admob/Firebase was unhappy with the old package for some unknown reason.
+    
+    Signed-off-by: Matthew 'siD' Van der Bijl <matthewvdbijl@gmail.com>
+
+commit 5d7e62867a2d7e892571a69428781f061269b9d6
 Author: Matthew 'siD' Van der Bijl <matthewvdbijl@gmail.com>
 Date:   Sat Jan 20 15:29:57 2018 +0200
 
