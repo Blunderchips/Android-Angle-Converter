@@ -123,6 +123,7 @@ public final class MainActivity extends AppCompatActivity implements View.OnClic
         }
 
 
+        // siD: mabe remove?
         Toast.makeText(this, "Welcome!", Toast.LENGTH_SHORT).show();
     }
 
