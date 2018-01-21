@@ -1,4 +1,34 @@
-commit eadfd849d48c962b943ae8509679d33c9ef77d94
+commit 175b679500f5de93e3b76a27513835bae2f1abf0
+Author: Matthew 'siD' Van der Bijl <matthewvdbijl@gmail.com>
+Date:   Sun Jan 21 13:21:01 2018 +0200
+
+    Updated log
+
+commit a50498c48076a06de140a7688dbd8e71fdc08d7a
+Author: Matthew 'siD' Van der Bijl <matthewvdbijl@gmail.com>
+Date:   Sun Jan 21 13:20:27 2018 +0200
+
+    Update README.md
+    
+    Another hotfix
+
+commit 8dcd3e45f915a76de0c4ccb899bb9cf9675b5fe3
+Author: Matthew 'siD' Van der Bijl <matthewvdbijl@gmail.com>
+Date:   Sun Jan 21 13:20:09 2018 +0200
+
+    Update README.md
+    
+    Hotfix
+
+commit 121c0ef3c865cfaab1248e59f311301d5200e140
+Author: Matthew 'siD' Van der Bijl <matthewvdbijl@gmail.com>
+Date:   Sun Jan 21 13:19:27 2018 +0200
+
+    Update README.md
+    
+    Made game-icons.net a hyperlink
+
+commit 9b10e27031e2e93acd57f946617b9b259b5b6c8e
 Author: Matthew 'siD' Van der Bijl <matthewvdbijl@gmail.com>
 Date:   Sun Jan 21 13:12:31 2018 +0200
 
