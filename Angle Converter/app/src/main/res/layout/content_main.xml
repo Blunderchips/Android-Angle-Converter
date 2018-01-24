@@ -8,54 +8,40 @@
     tools:context="dot.empire.angle.angleconverter.MainActivity"
     tools:showIn="@layout/activity_main">
 
-    <com.vj.widgets.AutoResizeTextView
-        android:id="@+id/lblTitle"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="16dp"
-        android:layout_marginEnd="16dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="16dp"
-        android:ellipsize="none"
-        android:gravity="center"
-        android:singleLine="true"
-        android:text="Angle Converter"
-        android:textSize="50sp"
-        app:layout_constraintBottom_toTopOf="@+id/txfInput"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <EditText
-        android:id="@+id/txfInput"
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/input"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginEnd="32dp"
         android:layout_marginStart="32dp"
-        android:layout_marginTop="48dp"
-        android:ems="10"
-        android:inputType="numberDecimal"
+        android:layout_marginTop="52dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/lblTitle" />
+        app:layout_constraintTop_toBottomOf="@+id/adView">
+
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/txfInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="What would you like to convert?"
+            android:inputType="numberDecimal" />
+
+    </android.support.design.widget.TextInputLayout>
 
     <LinearLayout
         android:id="@+id/linearLayout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="8dp"
-        android:layout_marginEnd="32dp"
-        android:layout_marginStart="32dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:orientation="vertical"
         app:layout_constraintBottom_toTopOf="@+id/buttons"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txfInput"
-        app:layout_constraintVertical_bias="0.2">
+        app:layout_constraintTop_toBottomOf="@+id/txtOutput">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -109,7 +95,7 @@
 
     </LinearLayout>
 
-    <TextView
+    <com.vj.widgets.AutoResizeTextView
         android:id="@+id/txtOutput"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -119,12 +105,15 @@
         android:layout_marginTop="8dp"
         android:gravity="center"
         android:singleLine="true"
-        android:text=""
-        android:textSize="45sp"
+        android:text="0"
+        android:textSize="120sp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/buttons"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/linearLayout" />
+        app:layout_constraintTop_toBottomOf="@+id/input"
+        app:layout_constraintVertical_bias="0.2" />
 
     <LinearLayout
         android:id="@+id/buttons"
@@ -137,7 +126,7 @@
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
         android:orientation="horizontal"
-        app:layout_constraintBottom_toTopOf="@+id/adView"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent">
 
@@ -156,6 +145,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="Clear" />
+
     </LinearLayout>
 
     <com.google.android.gms.ads.AdView xmlns:ads="http://schemas.android.com/apk/res-auto"
@@ -165,13 +155,10 @@
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_gravity="bottom"
-        android:layout_marginBottom="8dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginStart="8dp"
         ads:adSize="SMART_BANNER"
         ads:adUnitId="ca-app-pub-7186830154970754/4453703809"
-        ads:layout_constraintBottom_toBottomOf="parent"
         ads:layout_constraintEnd_toEndOf="parent"
-        ads:layout_constraintStart_toStartOf="parent" />
+        ads:layout_constraintStart_toStartOf="parent"
+        ads:layout_constraintTop_toTopOf="parent" />
 
 </android.support.constraint.ConstraintLayout>
