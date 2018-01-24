@@ -1,3 +1,92 @@
+commit 51e8a451c168b82139c0d08238bc997744665d61
+Author: Matthew 'siD' Van der Bijl <matthewvdbijl@gmail.com>
+Date:   Thu Jan 25 00:04:51 2018 +0200
+
+    Misc Update
+    
+    Updated javadoc & git log.
+
+commit 267b1bb27c0aabe2c7221b9c53be093c9f618296
+Author: Matthew 'siD' Van der Bijl <matthewvdbijl@gmail.com>
+Date:   Wed Jan 24 23:58:42 2018 +0200
+
+    Update README.md
+    
+    Hotfix
+
+commit 2942974b1f7113e5bf9ada78051a6c3575c176c1
+Author: Matthew 'siD' Van der Bijl <matthewvdbijl@gmail.com>
+Date:   Wed Jan 24 23:58:23 2018 +0200
+
+    Update README.md
+    
+    Added link to new YouTube promo video.
+    https://www.youtube.com/watch?v=CW74GFAtOA4
+
+commit 6f9593146ead8b7ded9acb4f29b91ad4b994bb21
+Author: Matthew 'siD' Van der Bijl <matthewvdbijl@gmail.com>
+Date:   Wed Jan 24 23:57:14 2018 +0200
+
+    Add files via upload
+    
+    Promo video with updated screenshots. Made using Windows Movie Maker.
+    Enhanced.
+
+commit 37fc2fd077389f1b230a5fed381b7ff068ef95e7
+Merge: a7093ca 2888c05
+Author: Matthew 'siD' Van der Bijl <matthewvdbijl@gmail.com>
+Date:   Wed Jan 24 23:45:47 2018 +0200
+
+    Merge branch 'master' of https://github.com/Blunderchips/Android-Angle-Converter
+
+commit 2888c05be8ad4e5eedf5800a8b0e7ed2461729d7
+Author: Matthew 'siD' Van der Bijl <matthewvdbijl@gmail.com>
+Date:   Wed Jan 24 23:44:43 2018 +0200
+
+    Create readme.txt
+    
+    Added links to the two YouTube Videos.
+    https://www.youtube.com/watch?v=GHKdlGE1SSs
+    https://www.youtube.com/watch?v=CW74GFAtOA4
+
+commit a7093cab99d114fb982e1cc44819d2aafd85f9cc
+Author: Matthew 'siD' Van der Bijl <matthewvdbijl@gmail.com>
+Date:   Wed Jan 24 23:42:22 2018 +0200
+
+    Creating new YouTube video
+
+commit b6fc1399fe9c078a6ca7294b17be579a5c628edc
+Author: Matthew 'siD' Van der Bijl <matthewvdbijl@gmail.com>
+Date:   Wed Jan 24 23:33:20 2018 +0200
+
+    Add files via upload
+    
+    Updated screenshots, both edited & raw.
+
+commit 0f57bde897c012c80e7cbf4df1c08a74a4b16297
+Author: Matthew 'siD' Van der Bijl <matthewvdbijl@gmail.com>
+Date:   Wed Jan 24 23:30:07 2018 +0200
+
+    Updating screenshots
+
+commit 3198368718fe893eceba37c63c9ba07cc2283e27
+Author: Matthew 'siD' Van der Bijl <matthewvdbijl@gmail.com>
+Date:   Wed Jan 24 23:21:04 2018 +0200
+
+    Changing resources structure
+
+commit 0f4c7d47694f0eeb41ceb60b0086492ae93b940c
+Author: Matthew 'siD' Van der Bijl <matthewvdbijl@gmail.com>
+Date:   Wed Jan 24 23:18:21 2018 +0200
+
+    made todo list
+
+commit f56146d43b9de6364fb9be1c103aea8d20350c90
+Author: Matthew 'siD' Van der Bijl <matthewvdbijl@gmail.com>
+Date:   Wed Jan 24 21:57:44 2018 +0200
+
+    Log update
+
 commit eaaca7020b483b49e22bcf2e7081c4bbf8213eb8
 Merge: 9a5c892 1765b8b
 Author: Matthew 'siD' Van der Bijl <matthewvdbijl@gmail.com>
